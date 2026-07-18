@@ -13,7 +13,7 @@ dp = Dispatcher()
 @dp.message(Command("start"))
 async def start(message: types.Message):
     # دکمه‌ای که وب‌اپ را باز می‌کند
-    web_app = types.WebAppInfo(url="لینک_سایت_شما_که_index.html_در_آن_است")
+    web_app = types.WebAppInfo(url="https://efn82dri-sys.github.io/ArchitectureBot/")
     kb = types.InlineKeyboardMarkup(inline_keyboard=[
         [types.InlineKeyboardButton(text="فرم پذیرش معماران", web_app=web_app)]
     ])

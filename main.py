@@ -4,7 +4,7 @@ import asyncio
 import json
 
 # توکن خود را اینجا قرار دهید
-API_TOKEN = '8654381552:AAHwgCU5l99fOsKnSK4ZksetjoKVhXOwSLs'
+API_TOKEN = os.getenv('8654381552:AAHwgCU5l99fOsKnSK4ZksetjoKVhXOwSLs')
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
